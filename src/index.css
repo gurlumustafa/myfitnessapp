@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-marka: #16a34a;
+  --color-protein: #2563eb;
+  --color-karbonhidrat: #d97706;
+  --color-yag: #db2777;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-zinc-50 text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100;
+  -webkit-tap-highlight-color: transparent;
+}
